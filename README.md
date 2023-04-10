@@ -5,6 +5,8 @@ This is the code for a standard chess game I implemented as a final project at t
 Main Chess implements the functionality of actually playing a game of chess. 
 All of the pieces inherit from the Piece class. This class implements the basic functionality of any given piece. The individual classes for the pieces implement piece-specific behaviour.
 
-The Game class keeps track of the main rules of a game and checks whether the game is over at any given point. It also holds the function to prohibit invalid moves. 
+The Game class implements the functionality of playing a game. That is, it switches between the players and checks whether the game is over.
+
+The Chesssboard class implements the main logic of the game. It holds code for all the rules and can check whether any player is in a check-mate.
 
 The Player class keeps track of the individual players.
